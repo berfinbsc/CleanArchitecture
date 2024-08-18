@@ -1,0 +1,58 @@
+# Ignore bin and obj directories
+[Bb]in/
+[Oo]bj/
+
+# Ignore properties files (if they are generated or environment-specific)
+*.properties
+
+# Ignore appsettings.Development.json (if environment-specific)
+appsettings.Development.json
+
+# Ignore the CleanArch.generated directory (if it contains generated code)
+CleanArch.generated/
+
+# Optional: Uncomment if CleanArch is also a generated or environment-specific directory
+# CleanArch/
+
+# Ignore other common directories and files
+# VS Code directories
+.vscode/
+.vscode-test/
+
+# Rider settings
+.idea/
+
+# NPM packages
+node_modules/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Local History for JetBrains IDEs
+.localhistory/
+
+# Mono auto generated files
+mono_crash.*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
